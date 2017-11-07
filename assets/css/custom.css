@@ -1,0 +1,89 @@
+/* 
+04 css :: chris cote
+*/
+
+html {
+    margin: 0;
+	padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url(../img/bg.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    border-top: 2px solid #cccccc;
+}
+
+
+.footer {
+    bottom: 0;
+    height: 30px;
+    background: #f0f0f0;
+    width: 100%;
+    border-top: 2px solid #cccccc;
+}
+
+.footer_text {
+    padding: 10px 0 0 40px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #999999; 
+}
+
+.panel {
+    border-radius: 10px;
+    border: 2px solid #e2aa4d;
+    margin: 20px 0 10px 0;
+    padding: 10px 0 20px 20px;
+}
+
+.panel p {
+    margin: 0;
+    padding: 20px 0 10px 0;
+}
+
+.panel ul {
+    margin: 20px 0 20px 0;
+    list-style-type: none;
+}
+
+.panel li {
+    display: inline;
+}
+
+#buttons-view {
+    min-height: 120px;
+    padding: 20px 0 0 0;
+}
+
+.btn-warning {
+    border-radius: 4px;
+    margin: 10px 20px 20px 0;
+}
+
+label {
+    font-size: 12px;
+    color: #666666;
+}
+
+.imgGyphy {
+    float: right;
+}
+
+input {
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,412 @@
+/* 
+01 css :: chris cote
+*/
+
+html {
+    margin: 0;
+	padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url(../images/bg.jpg) no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 0 30px 0;
+    border-top: 2px solid #222927;
+}
+
+.shell {
+    margin: 20px;
+    width: 400px;
+    color: #ffffff;
+    font-family: Arial;
+    min-height: 99%;
+}
+
+.header {
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    padding: 0; 
+    width: 450px;
+    height: 50px; 
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 50px;
+    border-right: 2px solid #ffffff;
+    text-align: center;
+/*    border: 1px solid red; */
+}
+
+.logo_text {
+    margin: 0;
+    padding: 15px 0 0 0;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;    
+}
+
+.navs {
+    float: right;
+    font-family: Arial;
+    font-size: 18px;
+    width: 280px;
+    height: 50px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+/*    border: 1px solid red; */
+}
+
+.navs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.navs li {
+    float: left;
+}
+
+.navs li a {
+    display: block;
+    color: #e1e1e1;
+    text-align: center;
+    padding: 20px 30px 0 0;
+    text-decoration: none;
+}
+
+.navs li a:hover {
+    color: #ffffff;
+}
+
+.main {
+    width: 300px;
+    margin: 20px 0 0 20px;
+    padding:0;
+    font-size: 15px;
+    line-height: 22px;
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
+.main p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.main a {
+    color: #e1e1e1;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main a:hover {
+    color: #ffffff;
+}
+
+.main ul {
+    margin: 20px 0 0 0;
+    list-style-type: none;
+}
+
+.main li {
+    display: inline;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    background: #f0f0f0;
+    width: 100%;
+    border-top: 2px solid #222927;
+}
+
+.footer_text {
+    padding: 10px 0 0 40px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #999999; 
+}
+
+/* courtesy of w3 */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    font-family: Arial;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #e1e1e1; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #7da7b7;
+    color: #e1e1e1;
+    padding: 12px 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    color: #ffffff;
+    padding: 12px 20px;
+    border: 1px solid #ffffff;
+}
+
+h1 {
+    margin: 20px 0;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+.portfolio {
+    width: 640px;
+    margin: 20px 0 0 20px;
+    padding:0;
+    font-size: 15px;
+    line-height: 22px;
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
+.portfolio_ex {
+    border-radius: 20px;
+    padding: 0; 
+    width: 300px;
+    height: 222px;
+    background-color: #ffffff;
+    margin: 20px 20px 20px 0;
+    float: left;
+}
+
+.portfolio_ex img {
+    margin: 10px 0 5px 10px;
+}
+
+.portfolio span {
+    margin: 0 10px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #666666;
+}
+
+@media screen and (max-width: 768px) {
+body {
+    background: url(../images/bg_med.jpg) no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 0 30px 0;
+    border-top: 2px solid #222927;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+html {
+    margin: 0;
+	padding: 0;
+    height: 100%;
+}
+    
+body {
+    background: url(../images/bg_sm.jpg) no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 0 30px 0;
+    border-top: 2px solid #3d4b9d;
+}
+
+.shell {
+    margin: 20px;
+    width: 400px;
+    color: #3d4b9d;
+    font-family: Arial;
+    min-height: 99%;
+}
+
+.header {
+    border-radius: 20px;
+    border: 2px solid #3d4b9d;
+    padding: 0; 
+    width: 450px;
+    height: 50px; 
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 50px;
+    border-right: 2px solid #3d4b9d;
+    text-align: center;
+/*    border: 1px solid red; */
+}
+
+.logo_text {
+    margin: 0;
+    padding: 15px 0 0 0;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;    
+}
+
+.navs {
+    float: right;
+    font-family: Arial;
+    font-size: 18px;
+    width: 280px;
+    height: 50px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+/*    border: 1px solid red; */
+}
+
+.navs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.navs li {
+    float: left;
+}
+
+.navs li a {
+    display: block;
+    color: #3d4b9d;
+    text-align: center;
+    padding: 20px 30px 0 0;
+    text-decoration: none;
+}
+
+.navs li a:hover {
+    color: #6e8edb;
+}
+
+.main {
+    width: 300px;
+    margin: 20px 0 0 20px;
+    padding:0;
+    font-size: 15px;
+    line-height: 22px;
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
+.main p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.main a {
+    color: #3d4b9d;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main a:hover {
+    color: #6e8edb;
+}
+    
+.portfolio {
+    width: 340px;
+    margin: 20px 0 0 20px;
+    padding:0;
+    font-size: 15px;
+    line-height: 22px;
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
+.portfolio_ex {
+    border: 2px solid #3d4b9d;
+    border-radius: 20px;
+    padding: 0; 
+    width: 300px;
+    height: 222px;
+    background-color: #ffffff;
+    margin: 20px 20px 20px 0;
+    float: left;
+}
+
+.portfolio_ex img {
+    margin: 10px 0 5px 10px;
+}
+
+.portfolio span {
+    margin: 0 10px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #666666;
+}
+    
+.footer {
+    position: absolute;    
+    bottom: 0;
+    height: 30px;
+    background: #f0f0f0;
+    width: 100%;
+    border-top: 2px solid #3d4b9d;
+}
+
+.footer_text {
+    padding: 10px 0 0 40px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #999999; 
+}
+    
+input[type=text], select, textarea {
+    font-family: Arial;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #3d4b9d; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #c2cbd2;
+    color: #3d4b9d;
+    padding: 12px 20px;
+    border: 1px solid #3d4b9d;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    color: #6e8edb;
+    padding: 12px 20px;
+    border: 1px solid #6e8edb;
+}    
+}
+
+
